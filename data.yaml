@@ -1,0 +1,13 @@
+train: G:\project code january\yolo_anamoly_video\train\images
+val: G:\project code january\yolo_anamoly_video\valid\images
+test: G:\project code january\yolo_anamoly_video\test\images
+
+nc: 1
+names: ['anamoly']
+
+roboflow:
+  workspace: sathiya
+  project: video_anamoly
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sathiya/video_anamoly/dataset/1
